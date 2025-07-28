@@ -23,16 +23,18 @@ When working on a project, especially with a team, it's easy for things to get m
 
 ## Conceptualising Git Set Up with Tom and Jerry
 1. Initial Setup:
+   ![terminal](assets/termina;.png)
+   
    - Both Tom and Jerry have Git installed on their computers,
    - They clone (or download) the project repository from a central repository (like **Github, GitLab, or Bitbucket**) to their local machines. This gives them each a complete copy of the project, including all its files and version history.
-2. Tom and Jerry Start Working:
+1. Tom and Jerry Start Working:
    - Tom and Jerry pull the latest changes from the central repository to ensure they start with the most current version of the **index.html** file,
    - They both create a new branch from the main project. A branch in Git allows developers to work on a copy of the codebase without affecting the main line of development. Tom names his branch **update-navigation**, and Jerry names his **add-contact-info**.
-3. Making Changes:
+2. Making Changes:
    - On his branch, Tom updates the navigation bar in **index.html**
    - simultaneously, Jerry works on his branch to add contact information to the footer of the same file.
    - They commit their changes to their respective branches. A commit in Git is like saving your work with a note about what you've done.
-4. Merging Changes:
+3. Merging Changes:
    - Once they're done, Tom and Jerry push their branches to the central repository,
    - Tom decided to merge his changes first, He creates a **pull request (PR)** for his branch **update-navigation**. A PR is a way to tell the team that he's done and his code is already to be reviewed and merged into the main project.
    - After reviewing Tom's changes, the team merges his PR into the main branch, updating the **index.html** file on the main project line.
