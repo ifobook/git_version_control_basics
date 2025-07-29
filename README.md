@@ -96,6 +96,8 @@ git fetch origin
 git merge origin/main
 ```
 ![image](assets/git4.png)
+![image](assets/git5.png)
+
 ## Conclusion:
 
 Through this process, Tom and Jerry were able to work on the same file simultaneous, without overwriting each other's work. Git tracked their changes, allowing them to merge their updates seamlessly into the main project. This example illustrates the power of using a VSC like Git for collaborative development, ensuring that all contributions are preserved and integrated efficiently and effectively.
