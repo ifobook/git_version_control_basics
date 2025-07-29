@@ -96,7 +96,11 @@ git fetch origin
 git merge origin/main
 ```
 ![image](assets/git4.png)
+changes committed and pushed successfully:
 ![image](assets/git5.png)
+changes merged:
+![image](assets/git6.png)
+
 
 ## Conclusion:
 
